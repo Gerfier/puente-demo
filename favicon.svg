@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="t" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#16342d"/><stop offset="1" stop-color="#0b1916"/></linearGradient>
+    <linearGradient id="p" x1="8" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ddd4ad"/><stop offset=".55" stop-color="#a7a88c"/><stop offset="1" stop-color="#6d7b69"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6dc8a"/><stop offset="1" stop-color="#b8802a"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#t)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="13.5" stroke="#e0a93e" stroke-opacity=".55" stroke-width="1.2"/>
+  <g transform="translate(14 7) scale(.16)">
+    <path d="M26 30 H150 A91 91 0 0 1 150 212 H126 V296 H64 C46 300 30 306 20 326 C30 290 48 240 50 200 V96 Z" fill="url(#p)"/>
+    <path d="M116 82H150A39 39 0 0 1 150 160H116Z" fill="#0b1916"/>
+    <rect x="96" y="190" width="14" height="106" fill="url(#g)"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f3ead7" />
+    <link rel="icon" type="image/svg+xml" href="/puente-demo/favicon.svg" />
+    <title>Puente — cobra del extranjero, aparta lo justo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap"
+    />
+      <style>
+      .boot { position: fixed; inset: 0; display: grid; place-items: center; background: radial-gradient(circle at 50% 42%, #14352d 0%, #0a1613 72%); }
+      .b-spin { transform-origin: 24px 24px; animation: bSpin 2.4s cubic-bezier(0.55, 0.1, 0.45, 0.9) infinite; }
+      .b-arm { animation: bPulse 1.6s ease-in-out infinite; animation-delay: calc(var(--i) * -0.4s); }
+      @keyframes bSpin { to { transform: rotate(360deg); } }
+      @keyframes bPulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .b-spin, .b-arm { animation: none; } }
+    </style>
+    <script type="module" crossorigin src="/puente-demo/assets/index-B5PzMO9r.js"></script>
+    <link rel="stylesheet" crossorigin href="/puente-demo/assets/index-B81cgHpJ.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot" role="status" aria-label="Cargando / Loading">
+        <svg width="56" height="56" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <g class="b-spin">
+            <g class="b-arm" style="--i:0"><path d="M24 19V7H38V22H31V14" stroke="#4fc3a1" stroke-width="3.2" stroke-linecap="square" /></g>
+            <g class="b-arm" style="--i:1" transform="rotate(90 24 24)"><path d="M24 19V7H38V22H31V14" stroke="#4fc3a1" stroke-width="3.2" stroke-linecap="square" /></g>
+            <g class="b-arm" style="--i:2" transform="rotate(180 24 24)"><path d="M24 19V7H38V22H31V14" stroke="#4fc3a1" stroke-width="3.2" stroke-linecap="square" /></g>
+            <g class="b-arm" style="--i:3" transform="rotate(270 24 24)"><path d="M24 19V7H38V22H31V14" stroke="#4fc3a1" stroke-width="3.2" stroke-linecap="square" /></g>
+          </g>
+          <path d="M24 19.5 28.5 24 24 28.5 19.5 24Z" fill="#e6b650" />
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
